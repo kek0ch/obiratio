@@ -453,12 +453,12 @@ if (message.content.startsWith(`${prefix}suicide`)) {
                             });
                         }
 
-if (message.content.startsWith("бот писать")){
+if (message.content.startsWith("рот")){
     message.delete();
     //Отвечает за то чтобы бот начал писать в вызваном чате.
     message.channel.startTyping();
 }
-if (message.content.startsWith("бот не писать")) {
+if (message.content.startsWith("заткнись нахуй блять")) {
     message.delete();
     //Отвечает за то чтобы бот перестал писать в вызваном чате.
     message.channel.stopTyping();
